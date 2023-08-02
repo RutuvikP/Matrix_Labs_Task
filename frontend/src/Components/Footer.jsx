@@ -4,6 +4,6 @@ import { pink } from '../constants/color'
 
 export default function Footer() {
   return (
-    <Box w={'1516px'} h={'68px'} bgColor={pink}></Box>
+    <Box w={'100%'} h={'68px'} bgColor={pink}></Box>
   )
 }

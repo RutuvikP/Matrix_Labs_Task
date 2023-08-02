@@ -4,8 +4,8 @@ import { pink, backgroundColorSidebar } from '../constants/color';
 
 export default function Sidebar() {
     return (
-        <Box w={'288px'} height={'982px'} borderRadius={'0px 32px 32px 0px'} background={backgroundColorSidebar}>
-            <Flex h={'914px'} pt={5} flexDirection={'column'} justifyContent={'space-between'}>
+        <Box w={'288px'} height={'982px'} borderRadius={'0px 32px 0px 0px'} background={backgroundColorSidebar}>
+            <Flex h={'914px'} pt={5} flexDirection={'column'}>
                 <VStack w={'100%'} gap={3}>
                     <HStack pl={'30px'} h={'65px'} w={'100%'} gap={3}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="30" viewBox="0 0 26 30" fill="none">
@@ -26,7 +26,7 @@ export default function Sidebar() {
                         <Text className='worksans' color={'#FFFFFF'}>Pair Address</Text>
                     </HStack>
                 </VStack>
-                <HStack pl={'30px'} gap={5}>
+                <HStack pl={'30px'} gap={5} mt={'650px'}>
                     <Box>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <g clip-path="url(#clip0_32_78)">
