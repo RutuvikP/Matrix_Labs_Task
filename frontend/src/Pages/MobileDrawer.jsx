@@ -12,7 +12,7 @@ import React from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 import Sidebar from "../Components/Sidebar";
-import { pink } from "../constants/color";
+import { backgroundColorSidebar } from "../constants/color";
 
 function MobileDrawer() {
     const { isOpen, onOpen, onClose } = useDisclosure();
@@ -27,8 +27,8 @@ function MobileDrawer() {
 
             <Drawer onClose={onClose}  placement='left' isOpen={isOpen}>
                 <DrawerOverlay />
-                <DrawerContent>
-                    <DrawerCloseButton color={pink} fontSize="xl" />
+                <DrawerContent bgColor={backgroundColorSidebar}>
+                    <DrawerCloseButton color={"white"} fontSize="xl" />
                     <DrawerBody>
                         <DrawerCloseButton />
                         <Sidebar />
